@@ -963,11 +963,21 @@ footer .inner-content p a {
 	}
 }
 
+
 @media (max-width: 768px) {
 	.banner .text-content {
 		width: 90%;
 		margin-left: 5%;
 	}
+	
+		
+	.product-item {
+		width: 348px !important;
+		
+		height: auto;
+		overflow: hidden;
+	}
+	
 	.banner .text-content h4 {
 		font-size: 22px;
 	}
